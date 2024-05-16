@@ -12716,9 +12716,12 @@ img {
 }
 .countdown .heading {
   margin-bottom: 8em;
+  text-shadow: 1px 1px 2px black;
+
 }
 .countdown .heading h2, .countdown .heading .h2 {
   font-size: 33px;
+
 }
 @media (min-width: 768px) {
   .countdown .heading h2, .countdown .heading .h2 {
@@ -12874,6 +12877,7 @@ img {
   position: absolute;
   top: 16px;
   z-index: 100;
+  padding: 10px;
 }
 .timeline-badge img {
   border-radius: 50%;
